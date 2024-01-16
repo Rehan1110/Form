@@ -1,1 +1,8 @@
 /* css file */
+.image{
+  width: 440px;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+}

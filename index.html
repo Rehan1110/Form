@@ -4,23 +4,42 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Form</title>
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <Form>
+  <div class="container">
+    <div class="image-container">
+    <img src="images/dave-hoefler-lsoogGC_5dg-unsplash.jpg" alt="can't found" class="image"/>
+  </div>
+  <div class="form-container">
+  <Form action="#" method="post">
+    <p>This is not a real online service! You know you need something <br>
+      like this in your life to help you realize your deepest dreams.<br>
+      Sign up now to get started. 
+      </p>
+      <p>You know you want to.</p>
+    <fieldset>
     <label for="first_name">First Name:</label>
     <input type="text" id="first_name"/>
     <label for="second_name">Second Name:</label>
     <input type="text" id="second_name"/>
+    </fieldset>
+    <fieldset>
     <label for="email">Email:</label>
     <input type="email" id="email">
     <label for="phone_no">Phone No.:</label>
     <input type="text" id="phone_no">
+    </fieldset>
+    <fieldset>
     <label for="password">Password:</label>
     <input type="password" id="password">
     <label for="confirm_password">Confirm Password:</label>
     <input type="password" id="confirm_password">
+    </fieldset>
     <button>Create Account:</button>
+    <p>Already have account ? <strong>log in</strong></p>
   </Form>
-  <p>Already have account ? <strong>log in</strong></p>
+</div>
+  </div>
 </body>
 </html>
