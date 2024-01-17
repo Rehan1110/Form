@@ -32,4 +32,13 @@
 }
 .field{
   border: none;
+  display: table;
+}
+.input{
+  display: flex;
+  flex-flow: column wrap;
+  width: 40%;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  opacity: 50%;
 }
