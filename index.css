@@ -45,3 +45,19 @@
   text-transform: uppercase;
   opacity: 50%;
 }
+.first_name,
+.last_name,
+.email,
+.password,
+.phone_no,
+.confirm_password:invalid{
+  color: red;
+}
+.first_name,
+.last_name,
+.email,
+.password,
+.phone_no,
+.confirm_password:valid{
+  color: green;
+}
