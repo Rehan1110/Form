@@ -9,6 +9,7 @@
 }
 .image-container{
  position: relative;
+ padding: 30px;
 }
 .container{
   display: flex;
@@ -33,6 +34,8 @@
 .field{
   border: none;
   display: table;
+  display: flex;
+  gap: 30px;
 }
 .input{
   display: flex;
