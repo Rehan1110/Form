@@ -1,7 +1,9 @@
 /* css file */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+
 *{
   font-size: medium;
-  font-family: sans-serif;
+  font-family: Poppins sans-serif;
 }
 .image{
   width: 300px;
