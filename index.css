@@ -61,3 +61,8 @@
 .confirm_password:valid{
   border: 1px solid green;
 }
+.content-container{
+  border: none;
+  box-shadow: 0 3px 5px -3px #000;
+  padding-left: 20px;
+}
