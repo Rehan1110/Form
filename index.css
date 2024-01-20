@@ -11,7 +11,7 @@
 }
 .image-container{
  position: relative;
- padding: 30px;
+ margin-top: 25px;
 }
 .container{
   display: flex;
@@ -24,7 +24,7 @@
   color: white;
   background-color: rgb(63, 62, 62);
   padding: 5px 10px;
-  width: 93%;
+  width: 280px;
 }
 .form_form{
   margin-top: 80px;
