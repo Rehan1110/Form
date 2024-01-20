@@ -6,13 +6,11 @@
   font-family: Poppins sans-serif;
 }
 .container{
-  align-items: center;
-  text-align: center;
   justify-content: center;
 }
 .image{
-  width: 300px;
-  height: 550px;
+  width: 600px;
+  height: 560px;
 }
 .image-container{
  position: relative;
@@ -29,14 +27,15 @@
   color: white;
   background-color: rgb(63, 62, 62);
   padding: 5px 10px;
-  width: 280px;
+  width: 580px;
 }
 .form_form{
   margin-top: 80px;
 }
 .text-para{
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
+  margin-left: 34px;
 }
 .field{
   border: none;
