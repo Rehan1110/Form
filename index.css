@@ -37,7 +37,8 @@
   border: none;
   display: table;
   display: flex;
-  gap: 30px;
+  column-gap: 60px;
+  row-gap: 40px;
 }
 .input{
   display: flex;
@@ -46,22 +47,6 @@
   font-size: 0.7rem;
   text-transform: uppercase;
   opacity: 50%;
-}
-.first_name,
-.last_name,
-.email,
-.password,
-.phone_no,
-.confirm_password:invalid{
-  border: 1px solid red;
-}
-.first_name,
-.last_name,
-.email,
-.password,
-.phone_no,
-.confirm_password:valid{
-  border: 1px solid green;
 }
 .content-container{
   border: none;
@@ -75,4 +60,12 @@
   padding: 10px 7px;
   border-radius: 3px;
   cursor: pointer;
+}
+.first_name,
+.last_name,
+.email,
+.password,
+.phone_no,
+.confirm_password{
+  border-color: #E5E7EB;
 }
