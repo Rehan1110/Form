@@ -71,3 +71,6 @@
 .confirm_password{
   border-color: #E5E7EB;
 }
+.form-container{
+  padding: 15px 30px;
+}
