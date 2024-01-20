@@ -22,6 +22,7 @@
 }
 .image-text{
   position: absolute;
+  justify-content: center;
   bottom: 20px;
   display: flex;
   color: white;
